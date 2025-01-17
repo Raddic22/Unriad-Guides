@@ -11,7 +11,7 @@
     ```
     lsscsi -g  
     ```
-3. Note down the srX and SgY of your optiacl drive.
+3. Note down the srX and sgY of your optiacl drive.
 
     ``
     eg: [2:0:0:0}  cd/dvd  HL-DT-ST  BD-RE  BH10LS38  1.00  `/dev/sr1`  `/dev/sg2` 
