@@ -13,7 +13,7 @@
     eg: [6:0:0:0]  cd/dvd  HL-DT-ST  BD-RE  WH16NS60  1.00  /dev/sr0  /dev/sg3 
     ``
 
-In this example, srX and sgY is `sr1` and `sg2` (Your values may be different).
+In this example, srX and sgY is `sr0` and `sg3` (Your values may be different).
 
 ## Step 2: Open the Community Applications Plugin:
 1. Navigate to the `Apps` tab (Community Applications).
@@ -40,6 +40,6 @@ In this example, srX and sgY is `sr1` and `sg2` (Your values may be different).
 - Automatic Disc Ripper: Blu-ray Rip Mode: `mkv`
 - Automatic Disc Ripper: Force Unique Output Directory: `0`
 - Automatic Disc Ripper: Disable Progress in GUI: `0`
-- Device srX: `/dev/srX` Obtained from Step 2, in this example it would be `/dev/sr1`.
-- Device sgY: `/dev/sgY` Obtained from Step 2, in this example it would be `/dev/sg2`.
+- Device srX: `/dev/srX` Obtained from Step 2, in this example it would be `/dev/sr0`.
+- Device sgY: `/dev/sgY` Obtained from Step 2, in this example it would be `/dev/sg3`.
 
