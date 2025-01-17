@@ -7,7 +7,7 @@
     ```
     lsscsi -g  
     ```
-4. Note down the srX and sgY of your optiacl drive.
+4. Note down the srX and sgY of your optical drive.
 
     ``
     eg: [6:0:0:0]  cd/dvd  HL-DT-ST  BD-RE  WH16NS60  1.00  /dev/sr0  /dev/sg3 
