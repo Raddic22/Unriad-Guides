@@ -5,7 +5,7 @@
 2. Navigate to the `Apps` tab (Community Applications).
 3. Use the search bar to search `jlesage/MakeMKV`.
 
-##Step 2: Obtain optical drive srX and SgY:
+## Step 2: Obtain optical drive srX and SgY:
 1. Open the Unraid Termainl.
 2. Enter the following command into the terminal:
     ```
@@ -17,11 +17,11 @@
     eg: [2:0:0:0}  cd/dvd  HL-DT-ST  BD-RE  BH10LS38  1.00  `/dev/sr1`  `/dev/sg2` 
     ``
 
-##Step 3: Install the MakeMKV Container:
+## Step 3: Install the MakeMKV Container:
 1. In the search results, select the jlesage/MakeMKV container.
 2. Click `Install` to proceed to the configuration page.
 
-##Step 4: Configure the MakeMKV Container (Most will stay with default configuration):
+## Step 4: Configure the MakeMKV Container (Most will stay with default configuration):
 - Name: `MakeMKV`
 - Additional Requirements: `None Liste`
 - Repository: `jlesage/makemkv`
