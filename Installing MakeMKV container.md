@@ -10,7 +10,7 @@
 4. Note down the srX and sgY of your optiacl drive.
 
     ``
-    eg: [2:0:0:0}  cd/dvd  HL-DT-ST  BD-RE  BH10LS38  1.00  `/dev/sr1`  `/dev/sg2` 
+    eg: [2:0:0:0]  cd/dvd  HL-DT-ST  BD-RE  BH10LS38  1.00  `/dev/sr1`  `/dev/sg2` 
     ``
 
 In this example, srX and sgY is `sr1` and `sg2` (Your values may be different).
