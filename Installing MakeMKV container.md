@@ -12,7 +12,8 @@
     ``
     eg: [2:0:0:0}  cd/dvd  HL-DT-ST  BD-RE  BH10LS38  1.00  `/dev/sr1`  `/dev/sg2` 
     ``
-In this example, srX and sgY is `sr1` and `sg2`.
+
+In this example, srX and sgY is `sr1` and `sg2` (Your values may be different).
 
 ## Step 2: Open the Community Applications Plugin:
 1. Navigate to the `Apps` tab (Community Applications).
