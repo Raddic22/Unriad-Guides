@@ -31,8 +31,8 @@ In this example, srX and sgY is `sr1` and `sg2` (Your values may be different).
 - Use Tailscale: `OFF`
 - Console shell command: `Shell`
 - Previleged: `OFF`
-- Storage: `/mnt/user/Storage` This location contains files from your host that need to be accessible by the application.Container path: /storage
-- Output Directory: `/mnt/user/Storage/MakeMKV` This is the default output folder for converted videos. Also used by the automatic disc ripper.Container path: /output
+- Storage: `/mnt/user/Storage` This location contains files from your host that need to be accessible by the application. Container path: /storage
+- Output Directory: `/mnt/user/Storage/MakeMKV` This is the default output folder for converted videos. Also used by the automatic disc ripper. Container path: /output
 - Licence Key: `Enter MakeMKV Licence Key Here` You should receive this when purchasing MakeMKV.
 - Automatic Disc Ripper: Enabled: `0`
 - Automatic Disc Ripper: Eject: `0`
