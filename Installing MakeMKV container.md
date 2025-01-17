@@ -1,21 +1,21 @@
 # Install MakeMKV via Community Applications
 
-## Step 1: Open the Community Applications Plugin:
+## Step 1: Obtain optical drive srX and SgY:
 1. Login to your Unraid `WebUI`  
-2. Navigate to the `Apps` tab (Community Applications).
-3. Use the search bar to search `jlesage/MakeMKV`.
-
-## Step 2: Obtain optical drive srX and SgY:
-1. Open the Unraid Termainl.
-2. Enter the following command into the terminal:
+2. Open the Unraid Termainl.
+3. Enter the following command into the terminal:
     ```
     lsscsi -g  
     ```
-3. Note down the srX and sgY of your optiacl drive.
+4. Note down the srX and sgY of your optiacl drive.
 
     ``
     eg: [2:0:0:0}  cd/dvd  HL-DT-ST  BD-RE  BH10LS38  1.00  `/dev/sr1`  `/dev/sg2` 
     ``
+   
+## Step 2: Open the Community Applications Plugin:
+1. Navigate to the `Apps` tab (Community Applications).
+2. Use the search bar to search `jlesage/MakeMKV`.
 
 ## Step 3: Install the MakeMKV Container:
 1. In the search results, select the jlesage/MakeMKV container.
