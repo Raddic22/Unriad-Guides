@@ -13,30 +13,31 @@
     ```
 3. Note down the srX and SgY of your optiacl drive.
    eg:
-   [2:0:0:0}  cd/dvd  HL-DT-ST  BD-RE  BH10LS38  1.00  `/dev/sr1`  `/dev/sg2`
-
+    ```
+    [2:0:0:0}  cd/dvd  HL-DT-ST  BD-RE  BH10LS38  1.00  `/dev/sr1`  `/dev/sg2` 
+    ```
 
 ##Step 3: Install the MakeMKV Container:
 1. In the search results, select the jlesage/MakeMKV container.
 2. Click `Install` to proceed to the configuration page.
 
 ##Step 4: Configure the MakeMKV Container:
-- Name: MakeMKV
-- Additional Requirements: None Listed
-- Repository: jlesage/makemkv
-- Network Type: Bridge (This can be changed to your prefered network type)
-- Use Tailscale: OFF
-- Console shell command: Shell
-- Previleged: OFF
+- Name: `MakeMKV`
+- Additional Requirements: `None Liste`
+- Repository: `jlesage/makemkv`
+- Network Type: `Bridge` (This can be changed to your prefered network type)
+- Use Tailscale: `OFF`
+- Console shell command: `Shell`
+- Previleged: `OFF`
 - Storage: `/mnt/user/Storage` This location contains files from your host that need to be accessible by the application.Container path: /storage
 - Output Directory: `/mnt/user/Storage/MakeMKV` This is the default output folder for converted videos. Also used by the automatic disc ripper.Container path: /output
 - Licence Key: `Enter MakeMKV Licence Key Here` You should receive this when purchasing MakeMKV.
-- Automatic Disc Ripper: Enabled: 0
-- Automatic Disc Ripper: Eject: 0
-- Automatic Disc Ripper: Parallel: 0
-- Automatic Disc Ripper: Blu-ray Rip Mode: mkv
-- Automatic Disc Ripper: Force Unique Output Directory: 0
-- Automatic Disc Ripper: Disable Progress in GUI: 0
-- Device srX: `/dev/srX` Obtained from Step 2.
-- Device sgY: `/dev/sgY` Obtained from Step 2.
+- Automatic Disc Ripper: Enabled: `0`
+- Automatic Disc Ripper: Eject: `0`
+- Automatic Disc Ripper: Parallel: `0`
+- Automatic Disc Ripper: Blu-ray Rip Mode: `mkv`
+- Automatic Disc Ripper: Force Unique Output Directory: `0`
+- Automatic Disc Ripper: Disable Progress in GUI: `0`
+- Device srX: `/dev/srX` Obtained from Step 2, in this example it would be `/dev/sr1`.
+- Device sgY: `/dev/sgY` Obtained from Step 2, in this example it would be `/dev/sg2`.
 
