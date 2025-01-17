@@ -1,17 +1,16 @@
 # Install MakeMKV via Community Applications
 
 ## Step 1: Obtain optical drive srX and SgY:
-1. Login to your Unraid `WebUI`  
-2. Open the Unraid Termainl.
-3. Enter the following command into the terminal:
-    ```
+1. Open the Unraid Termainl.
+2. Enter the following command into the terminal:
+    ```bash
     lsscsi -g  
     ```
-4. Note down the srX and sgY of your optical drive.
+3. Note down the srX and sgY of your optical drive.
 
-    ``
+    ```bash
     eg: [6:0:0:0]  cd/dvd  HL-DT-ST  BD-RE  WH16NS60  1.00  /dev/sr0  /dev/sg3 
-    ``
+    ```
 
 In this example, srX and sgY is `sr0` and `sg3` (Your values may be different).
 
@@ -25,7 +24,7 @@ In this example, srX and sgY is `sr0` and `sg3` (Your values may be different).
 
 ## Step 4: Configure the MakeMKV Container (Most will stay with default configuration):
 - Name: `MakeMKV`
-- Additional Requirements: `None Liste`
+- Additional Requirements: `None Listed`
 - Repository: `jlesage/makemkv`
 - Network Type: `Bridge` (This can be changed to your prefered network type)
 - Use Tailscale: `OFF`
