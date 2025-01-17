@@ -21,7 +21,7 @@
 1. In the search results, select the jlesage/MakeMKV container.
 2. Click `Install` to proceed to the configuration page.
 
-##Step 4: Configure the MakeMKV Container:
+##Step 4: Configure the MakeMKV Container (Most will stay with default configuration):
 - Name: `MakeMKV`
 - Additional Requirements: `None Liste`
 - Repository: `jlesage/makemkv`
