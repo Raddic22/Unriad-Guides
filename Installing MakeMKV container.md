@@ -37,7 +37,7 @@
 Most settings will remain with the default configuration.
 
 - **Name**: `MakeMKV`
-- **Additional Requirements**: *None Listed*
+- **Additional Requirements**: `*None Listed*`
 - **Repository**: `jlesage/makemkv`
 - **Network Type**: `bridge` (This can be changed to your preferred network type)
 - **Use Tailscale**: `OFF`
