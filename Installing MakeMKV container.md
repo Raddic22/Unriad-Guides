@@ -69,11 +69,11 @@ Most default settings will be fine, but confirm or adjust these options as neede
 - **Storage**:  
   - **Host Path**: `/mnt/user/Storage`  
   - **Container Path**: `/storage`  
-  - *Use a location on your host where you want MakeMKV to have read access or where source files will be located.*
+  > *Use a location on your host where you want MakeMKV to have read access or where source files will be located.*
 - **Output Directory**:  
   - **Host Path**: `/mnt/user/storage/MakeMKV`  
   - **Container Path**: `/output`  
-  - *This is where final converted videos will be saved.*
+  > *This is where final converted videos will be saved.*
 - **License Key**  
 - **License Key**  
   - Enter your valid MakeMKV License Key here (purchased or trial).
