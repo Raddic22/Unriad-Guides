@@ -33,7 +33,11 @@ MakeMKV is a tool for converting (or “ripping”) Blu-ray and DVD discs into d
 3. Look at the output to identify your optical drive’s device names (srX and sgY).
 
    Example Output:
-   ```[2:0:0:0]  cd/dvd  HL-DT-ST  BD-RE  BH10LS38  1.00  /dev/sr1  /dev/sg2```
+   ```bash
+   [2:0:0:0]  cd/dvd  HL-DT-ST  BD-RE  BH10LS38  1.00  /dev/sr1  /dev/sg2
+- `srX` might be `/dev/sr1`
+- `sgY` might be `/dev/sg2`
+  > *Note: Your actual device names may differ. Make note of these for later steps.*
 
 ---
 
